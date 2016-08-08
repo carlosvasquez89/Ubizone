@@ -93,23 +93,6 @@
         fancy:fb_textColor="#FFFFFF"
         fancy:fb_textSize="20dp" />
 
-    <Button
-        android:id="@+id/button"
-        style="@style/Animation.AppCompat.Dialog"
-        android:layout_width="450dp"
-        android:layout_height="78dp"
-
-        android:layout_below="@+id/btn_bares"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/bk_boton_plano"
-        android:drawableLeft="@drawable/dj"
-        android:scrollbars="vertical"
-        android:text="EVENTOS"
-        android:textAlignment="inherit"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:visibility="invisible" />
-
 
 </RelativeLayout>
 
