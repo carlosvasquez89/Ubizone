@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UbiZone</string>
+
+    <string name="btn_bares">BARS / NIGHTCLUBS</string>
+    <string name="btn_restaurantes">RESTAURANTS</string>
+    <string name="btn_eventos">EVENTS</string>
 </resources>

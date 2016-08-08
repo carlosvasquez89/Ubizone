@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UbiZone</string>
+
+    <string name="btn_bares">BARES / DISCOTECAS</string>
+    <string name="btn_restaurantes">RESTAURANTES</string>
+    <string name="btn_eventos">EVENTOS</string>
+</resources>

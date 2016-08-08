@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageCount"
-        android:text="hellow"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="15sp"/>
+
 
     <ImageView
+        android:id="@+id/swip_image_view"
         android:layout_width="match_parent"
         android:layout_height="208dp"
-        android:id="@+id/swip_image_view"
         />
-
 
 
 </LinearLayout>
