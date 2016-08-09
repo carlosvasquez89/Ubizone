@@ -7,12 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-public class CustomSwip extends PagerAdapter {
+public class customSwip extends PagerAdapter {
     private int[] imageResources = {R.drawable.imagen1, R.drawable.imagen2, R.drawable.imagen3};
     private Context ctx;
     private LayoutInflater layoutInflater;
 
-    public CustomSwip(Context c) {
+    public customSwip(Context c) {
         ctx=c;
     }
 
