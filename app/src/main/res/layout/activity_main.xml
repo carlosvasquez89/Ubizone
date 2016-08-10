@@ -5,17 +5,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    android:minHeight="200dp"
-    tools:context="com.example.hp_user.ubizone.MainActivity">
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/elevation"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="UnusedAttribute">
+
+    </android.support.v7.widget.Toolbar>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        android:layout_below="@+id/main_toolbar" />
 
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/btn_eventos"
@@ -23,8 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/viewPager"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="5dp"
         android:minHeight="60dp"
         android:minWidth="340dp"
         android:paddingBottom="10dp"
@@ -37,7 +44,7 @@
         fancy:fb_focusColor="#9bd823"
         fancy:fb_fontIconResource="&#xf001;"
         fancy:fb_fontIconSize="30dp"
-        fancy:fb_iconPosition="top"
+        fancy:fb_iconPosition="left"
         fancy:fb_radius="10dp"
         fancy:fb_text="@string/btn_eventos"
         fancy:fb_textColor="#FFFFFF"
@@ -49,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_eventos"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:minHeight="60dp"
         android:minWidth="340dp"
         android:paddingBottom="10dp"
@@ -62,7 +69,7 @@
         fancy:fb_focusColor="#5474b8"
         fancy:fb_fontIconResource="&#xf0fc;"
         fancy:fb_fontIconSize="30dp"
-        fancy:fb_iconPosition="top"
+        fancy:fb_iconPosition="left"
         fancy:fb_radius="10dp"
         fancy:fb_text="@string/btn_bares"
         fancy:fb_textColor="#FFFFFF"
@@ -74,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_bares"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:minHeight="60dp"
         android:minWidth="340dp"
         android:paddingBottom="10dp"
@@ -87,7 +94,7 @@
         fancy:fb_focusColor="#DF0101"
         fancy:fb_fontIconResource="&#xf0f5;"
         fancy:fb_fontIconSize="30dp"
-        fancy:fb_iconPosition="top"
+        fancy:fb_iconPosition="left"
         fancy:fb_radius="10dp"
         fancy:fb_text="@string/btn_restaurantes"
         fancy:fb_textColor="#FFFFFF"
